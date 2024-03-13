@@ -1,0 +1,1447 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@graph": [
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ITDD5",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ITDD5",
+      "dct:title": "Egalité entre les femmes et les hommes",
+      "dct:description": "Ce jeu de données fait la synthèse de données venant de differents autres jeux de données et donc de différentes sources:\n- Écart de salaire entre hommes et femmes (gender pay gap) par catégorie sociale et tranches d’âges : Insee, base tous salariés\n- Participation des femmes à la gouvernance :  part des femmes maires : Répertoire national des élus\n- Différence entre le taux d’emploi des femmes et le taux d’emploi des hommes par âge : Insee, Recensement de la population (exploitation principale).",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_ITDD5",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/ETAT_CIVIL_DECES_COMMUNES",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "ETAT_CIVIL_DECES_COMMUNES",
+      "dct:title": "Décès par commune",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/ETAT_CIVIL_DECES_COMMUNES",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/ETAT_CIVIL_DECES_COMMUNES/ETAT_CIVIL_DECES_COMMUNES_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/ETAT_CIVIL_DECES_COMMUNES/ETAT_CIVIL_DECES_COMMUNES_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "ETAT_CIVIL_DECES_COMMUNES_CSV_FR",
+      "dct:title": "Décès par commune",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/ETAT_CIVIL_DECES_COMMUNES/ETAT_CIVIL_DECES_COMMUNES_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 1779219
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_RP_FORMATION",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_RP_FORMATION",
+      "dct:title": "Formation et diplômes en 2020",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_RP_FORMATION",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_RP_LOGEMENT_PRINC",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_RP_LOGEMENT_PRINC",
+      "dct:title": "Caractéristiques des logements en 2020",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_RP_LOGEMENT_PRINC",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_RP_LOGEMENT_PRINC/DS_RP_LOGEMENT_PRINC_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_RP_LOGEMENT_PRINC/DS_RP_LOGEMENT_PRINC_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_RP_LOGEMENT_PRINC_CSV_FR",
+      "dct:title": "Caractéristiques des logements en 2020",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_RP_LOGEMENT_PRINC/DS_RP_LOGEMENT_PRINC_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 71400223
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_CONJ_IPI",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_CONJ_IPI",
+      "dct:title": "Indice de la production industrielle",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_CONJ_IPI",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_CONJ_IPI/DS_CONJ_IPI_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_CONJ_IPI/DS_CONJ_IPI_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_CONJ_IPI_CSV_FR",
+      "dct:title": "Indice de la production industrielle",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_CONJ_IPI/DS_CONJ_IPI_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 2351333
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO",
+      "dct:title": "Salaires dans le secteur privé",
+      "dct:description": "Ces données se retrouvent dans la partie séries longues de l'outil dataviz sur les salaires, voir \nhttps://www.insee.fr/fr/outil-interactif/5369554/series-longues-dans-le-secteur-prive",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO/DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO/DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO_CSV_FR",
+      "dct:title": "Salaires dans le secteur privé",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO/DS_DERA_PRIVE_SERIES_LONGUES_SANS_GEO_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 111706
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_RP_POPULATION_COMP",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_RP_POPULATION_COMP",
+      "dct:title": "Structure de la population en 2020 - Complément",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_RP_POPULATION_COMP",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_EC_DECES",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_EC_DECES",
+      "dct:title": "Nombre de décès",
+      "dct:description": "Nombre de décès",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_EC_DECES",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-02T11:53:48",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_EC_DECES/DS_EC_DECES_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_EC_DECES/DS_EC_DECES_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_EC_DECES_CSV_FR",
+      "dct:title": "Nombre de décès",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_EC_DECES/DS_EC_DECES_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 3140802
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ETAT_CIVIL_DECES_COMMUNES",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ETAT_CIVIL_DECES_COMMUNES",
+      "dct:title": "Décès par commune",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_ETAT_CIVIL_DECES_COMMUNES",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ESANE_COMPTES_2021",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ESANE_COMPTES_2021",
+      "dct:title": "Résultats sur les entreprises en 2021",
+      "dct:description": "Le champ est celui des entreprises marchandes non agricoles et non financières.",
+      "dcat:landingPage": "https://www.insee.fr/fr/statistiques/7651565",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/DS_ESANE_COMPTES_2021_CSV_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/Esane035_2021_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/Esane035_2021_EN"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/DS_ESANE_COMPTES_2021_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_ESANE_COMPTES_2021_CSV_FR",
+      "dct:title": "Résultats sur les entreprises en 2021",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/DS_ESANE_COMPTES_2021_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 7889801
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/Esane035_2021_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "Esane035_2021_FR",
+      "dct:title": "Principales caractéristiques des entreprises en 2021 (niveau A10)",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/Esane035_2021_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 18549
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/Esane035_2021_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "Esane035_2021_EN",
+      "dct:title": "Key characteristics of businesses in 2021 (at the A10 level)",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ESANE_COMPTES_2021/Esane035_2021_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 18481
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_RP_LOGEMENT_COMPL",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_RP_LOGEMENT_COMPL",
+      "dct:title": "Caractéristiques des logements en 2020 - Complément",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_RP_LOGEMENT_COMPL",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_CNA_REBS",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_CNA_REBS",
+      "dct:title": "Ressources et emplois de biens et services",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_CNA_REBS",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_REBS/T_5101_5103_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_REBS/T_5101_5103_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_REBS/DD_CNA_REBS_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_REBS/T_5101_5103_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_5101_5103_FR",
+      "dct:title": "5.101 Production par produit",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_REBS/T_5101_5103_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 153528
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_REBS/T_5101_5103_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_5101_5103_EN",
+      "dct:title": "5.101 – Output by product at current prices",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_REBS/T_5101_5103_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 153400
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_REBS/DD_CNA_REBS_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DD_CNA_REBS_CSV_FR",
+      "dct:title": "Ressources et emplois de biens et services",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_REBS/DD_CNA_REBS_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 2738216
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_PRACTCULTASSO",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_PRACTCULTASSO",
+      "dct:title": "Pratiques culturelles et sportives, et vie associative ",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_PRACTCULTASSO",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_EEC",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_EEC",
+      "dct:title": "Activité, emploi et chômage",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_EEC",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_EEC/DD_EEC_CSV_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T001_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T001_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T101_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T101_EN"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_EEC/DD_EEC_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DD_EEC_CSV_FR",
+      "dct:title": "Activité, emploi et chômage",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_EEC/DD_EEC_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 594548
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T001_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "EEC_T001_FR",
+      "dct:title": "T001 : Population totale selon le plus haut diplôme obtenu, par sexe et âge regroupé, en moyenne annuelle",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T001_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 48535
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T001_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "EEC_T001_EN",
+      "dct:title": "T001 : Population by education level, sex and age.",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T001_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 48206
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T101_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "EEC_T101_FR",
+      "dct:title": "T101 : Population active et taux d'activité au sens du BIT (15 ans ou plus), par sexe, par tranche d'âge quinquennal et regroupé, en moyenne annuelle",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T101_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 32522
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T101_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "EEC_T101_EN",
+      "dct:title": "T101 : Active population and activity rate by sex and age",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_EEC/EEC_T101_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 32365
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_CNA_TEE",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_CNA_TEE",
+      "dct:title": "Tableau économique d'ensemble",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_CNA_TEE",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ESTEL",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ESTEL",
+      "dct:title": "Emploi localisé",
+      "dct:description": "L'emploi est mesuré en fin d'année.Les données pour 2021 sont définitives. ",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_ESTEL",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ESTEL/DS_ESTEL_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ESTEL/DS_ESTEL_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_ESTEL_CSV_FR",
+      "dct:title": "Emploi localisé",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ESTEL/DS_ESTEL_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 4166649
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_CNA_APU",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_CNA_APU",
+      "dct:title": "Compte des administrations publiques",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_CNA_APU",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_SRCV_SATISFACTION",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_SRCV_SATISFACTION",
+      "dct:title": "Conditions de vie : niveau de satisfaction",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_SRCV_SATISFACTION",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_SRCV_SATISFACTION/DS_SRCV_SATISFACTION_CSV_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_SRCV_SATISFACTION/SRCV_SATISFACTION_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_SRCV_SATISFACTION/DS_SRCV_SATISFACTION_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_SRCV_SATISFACTION_CSV_FR",
+      "dct:title": "Conditions de vie : niveau de satisfaction",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_SRCV_SATISFACTION/DS_SRCV_SATISFACTION_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 42456
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_SRCV_SATISFACTION/SRCV_SATISFACTION_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "SRCV_SATISFACTION_FR",
+      "dct:title": "Satisfaction de 2013 à 2021",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_SRCV_SATISFACTION/SRCV_SATISFACTION_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 58231
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_SANTE",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_SANTE",
+      "dct:title": "Chiffres clés sur la santé",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_SANTE",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_SANTE/DS_SANTE_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_SANTE/DS_SANTE_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_SANTE_CSV_FR",
+      "dct:title": "Chiffres clés sur la santé",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_SANTE/DS_SANTE_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 3556
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_CNA_PATRIMOINE",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_CNA_PATRIMOINE",
+      "dct:title": "Patrimoine",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_CNA_PATRIMOINE",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ABC_NAT_AVEC_STATUS",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ABC_NAT_AVEC_STATUS",
+      "dct:title": "Test ABC pour la publication sans enregistrement",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_ABC_NAT_AVEC_STATUS",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-06T11:30:05",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ABC_NAT_AVEC_STATUS/Tests ABC sans geo avec statut - intégration catalogue"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ABC_NAT_AVEC_STATUS/Tests ABC sans geo avec statut - intégration catalogue",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "Tests ABC sans geo avec statut - intégration catalogue",
+      "dct:title": "Tests ABC sans geo avec statut - intégration catalogue",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ABC_NAT_AVEC_STATUS/Tests ABC sans geo avec statut - intégration catalogue",
+      "dcat:mediaType": "zip",
+      "dcat:bytesSize": 701
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_TOUR_CAP_FICHIERS2",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_TOUR_CAP_FICHIERS2",
+      "dct:title": "Capacités d'hébergement touristiques (tests fichiers)",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_TOUR_CAP_FICHIERS2",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-12T11:41:06",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/FP_tour_cap_2023_geo2023_conforme_DSD"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/FP_tour_cap_2023_geo2023-PARQUET"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/DS_TOUR_CAP_FICHIERS2_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/FP_tour_cap_2023_geo2023_conforme_DSD",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "FP_tour_cap_2023_geo2023_conforme_DSD",
+      "dct:title": "FP_tour_cap_2023_geo2023_conforme_DSD",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/FP_tour_cap_2023_geo2023_conforme_DSD",
+      "dcat:mediaType": "zip",
+      "dcat:bytesSize": 296539
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/FP_tour_cap_2023_geo2023-PARQUET",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "FP_tour_cap_2023_geo2023-PARQUET",
+      "dct:title": "FP_tour_cap_2023_geo2023-PARQUET",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/FP_tour_cap_2023_geo2023-PARQUET",
+      "dcat:mediaType": "zip",
+      "dcat:bytesSize": 195826
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/DS_TOUR_CAP_FICHIERS2_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_TOUR_CAP_FICHIERS2_CSV_FR",
+      "dct:title": "Capacités d'hébergement touristiques (tests fichiers)",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_TOUR_CAP_FICHIERS2/DS_TOUR_CAP_FICHIERS2_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 505043
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_CNA_SU",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_CNA_SU",
+      "dct:title": "Tableau des entrées sorties normales et symétriques ",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_CNA_SU",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ERFS_MENAGES",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ERFS_MENAGES",
+      "dct:title": "ERFS_menage",
+      "dct:description": "Répartition des ménages, leurs revenus et niveaux de vie moyen et médian",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_ERFS_MENAGES",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-06T15:08:29",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/ERFS_dd1_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/ERFS_dd3_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/DS_ERFS_MENAGES_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/ERFS_dd1_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "ERFS_dd1_FR",
+      "dct:title": "Distribution du revenu disponible des ménages selon le type de ménage",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/ERFS_dd1_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 7472
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/ERFS_dd3_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "ERFS_dd3_FR",
+      "dct:title": "Composition du revenu disponible moyen selon l’âge de la personne de référence",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/ERFS_dd3_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 7063
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/DS_ERFS_MENAGES_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_ERFS_MENAGES_CSV_FR",
+      "dct:title": "ERFS_menage",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ERFS_MENAGES/DS_ERFS_MENAGES_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 30523
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_CONJ_CAMME",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_CONJ_CAMME",
+      "dct:title": "Conjoncture auprès des ménages",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_CONJ_CAMME",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_CONJ_CAMME/DS_CONJ_CAMME_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_CONJ_CAMME/DS_CONJ_CAMME_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_CONJ_CAMME_CSV_FR",
+      "dct:title": "Conjoncture auprès des ménages",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_CONJ_CAMME/DS_CONJ_CAMME_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 96274
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_MORTALITE",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_MORTALITE",
+      "dct:title": "Mortalité",
+      "dct:description": "Spécification de l’ensemble de données annuelles de forte valeur «mortalité»",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_MORTALITE",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-19T09:56:09",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_MORTALITE/DS_MORTALITE_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_MORTALITE/DS_MORTALITE_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_MORTALITE_CSV_FR",
+      "dct:title": "Mortalité",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_MORTALITE/DS_MORTALITE_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 266153
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_IREF_ECRT_DUREE_TRAVAIL",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_IREF_ECRT_DUREE_TRAVAIL",
+      "dct:title": "Durée du travail en 2022",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_IREF_ECRT_DUREE_TRAVAIL",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_IREF_ECRT_DUREE_TRAVAIL/DD_IREF_ECRT_DUREE_TRAVAIL_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_IREF_ECRT_DUREE_TRAVAIL/DD_IREF_ECRT_DUREE_TRAVAIL_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DD_IREF_ECRT_DUREE_TRAVAIL_CSV_FR",
+      "dct:title": "Durée du travail en 2022",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_IREF_ECRT_DUREE_TRAVAIL/DD_IREF_ECRT_DUREE_TRAVAIL_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 997
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DSD_ESANE_COMPTES_BRANCHES_SANS_NIV_ACT",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DSD_ESANE_COMPTES_BRANCHES_SANS_NIV_ACT",
+      "dct:title": "Résultats comptables - Tests de chargement",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DSD_ESANE_COMPTES_BRANCHES_SANS_NIV_ACT",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ABC_TEST_COND",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ABC_TEST_COND",
+      "dct:title": "",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_ABC_TEST_COND",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-26T17:05:11",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_ANTIPOL",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_ANTIPOL",
+      "dct:title": "Les études et investissements dans l'industrie pour protéger l'environnement",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_ANTIPOL",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_ANTIPOL/DD_ANTIPOL_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_ANTIPOL/DD_ANTIPOL_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DD_ANTIPOL_CSV_FR",
+      "dct:title": "Les études et investissements dans l'industrie pour protéger l'environnement",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_ANTIPOL/DD_ANTIPOL_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 8181
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_MULTIMESURES_TEST",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_MULTIMESURES_TEST",
+      "dct:title": "Multi mesures test",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_MULTIMESURES_TEST",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_EDT",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_EDT",
+      "dct:title": "Emploi du temps en 2010",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_EDT",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_EDT/DS_EDT_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_EDT/DS_EDT_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_EDT_CSV_FR",
+      "dct:title": "Emploi du temps en 2010",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_EDT/DS_EDT_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 823487
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_CNA_AGREGATS",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_CNA_AGREGATS",
+      "dct:title": "Grands agrégats et comptes des secteurs institutionnels ",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_CNA_AGREGATS",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/DD_CNA_AGREGATS_CSV_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_102_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_102_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_101_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_101_EN"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/DD_CNA_AGREGATS_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DD_CNA_AGREGATS_CSV_FR",
+      "dct:title": "Grands agrégats et comptes des secteurs institutionnels ",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/DD_CNA_AGREGATS_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 2777318
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_102_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_102_FR",
+      "dct:title": "1.02 Contributions à l’évolution du produit intérieur brut aux prix de l'année précédente (En points de PIB)",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_102_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 13816
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_102_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_102_EN",
+      "dct:title": "1.104 – Contributions to the change of GDP at prices of previous year",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_102_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 12932
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_101_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_101_FR",
+      "dct:title": "1.01 – Le produit intérieur brut et ses composantes",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_101_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 75487
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_101_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_101_EN",
+      "dct:title": "1.101 – Gross domestic product and its components",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_AGREGATS/T_101_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 66609
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ESANE_BRANCHES_2021",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ESANE_BRANCHES_2021",
+      "dct:title": "Chiffres d'affaires par branche d'entreprise en 2021",
+      "dct:description": "Les données portent sur les branches. Un « secteur d'activité S » est formé de toutes les entreprises ayant l’activité principale S alors qu’une « branche d’activité B » décrit de façon conceptuelle une « activité B », que celle-ci soit réalisée à titre principal ou à titre secondaire par des entreprises. Participent ainsi à une branche B toutes les entreprises qui fabriquent des produits (ou rendent des services) correspondant à la sous-classe B quelle que soit la part, même très faible, de ces produits (ou services) dans leur chiffre d’affaires. La disponibilité d’un produit correspond à la production de la branche et non à celle du secteur correspondant.",
+      "dcat:landingPage": "https://www.insee.fr/fr/statistiques/7651565",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/ABC_NAT_FILES_ONLY",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "ABC_NAT_FILES_ONLY",
+      "dct:title": "",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/ABC_NAT_FILES_ONLY",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-28T15:47:46",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/ABC_NAT_FILES_ONLY/Tests ABC sans geo sans statut - chargement 1_Fichier producteur"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/ABC_NAT_FILES_ONLY/Tests ABC sans geo sans statut - chargement 1_Fichier producteur",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "Tests ABC sans geo sans statut - chargement 1_Fichier producteur",
+      "dct:title": "Tests ABC sans geo sans statut - chargement 1_Fichier producteur",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/ABC_NAT_FILES_ONLY/Tests ABC sans geo sans statut - chargement 1_Fichier producteur",
+      "dcat:mediaType": "zip",
+      "dcat:bytesSize": 701
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_RP_MENAGES_COMP",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_RP_MENAGES_COMP",
+      "dct:title": "Ménages - exploitation complémentaire",
+      "dct:description": "Caractéristiques des ménages et des personnes qui les composent (âge, catégorie socio-professionnelle) ",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_RP_MENAGES_COMP",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_RP_MENAGES_COMP/DS_RP_MENAGES_COMP_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_RP_MENAGES_COMP/DS_RP_MENAGES_COMP_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_RP_MENAGES_COMP_CSV_FR",
+      "dct:title": "Ménages - exploitation complémentaire",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_RP_MENAGES_COMP/DS_RP_MENAGES_COMP_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 10126028
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_FECONDITE",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_FECONDITE",
+      "dct:title": "Fécondité",
+      "dct:description": "Spécification de l’ensemble de données annuelles de forte valeur «fécondité»",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_FECONDITE",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-16T15:40:00",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DD_CNA_BRANCHES",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DD_CNA_BRANCHES",
+      "dct:title": "Activité des branches de l'économie",
+      "dct:description": "L'emploi (STO=EMP) est mesuré en effectifs ( personnes physiques avec UNIT_MEASURE=PS ou en équivalent temps plein FT) ou en nombre d'heures travaillées (UNIT_MEASURE=HW). \n\nCe jeu de données donne le chiffre clé du Tableau de Bord de l’Économie Française sur la répartition de la valeur ajoutée par branche  https://www.insee.fr/fr/outil-interactif/5367857/details/10_ECC/11_ECO/11B_Figure2",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DD_CNA_BRANCHES",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/DD_CNA_BRANCHES_CSV_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6101_6103_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6101_6103_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6104_6106_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6104_6106_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6201_6203_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6201_6203_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6204_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6204_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6205_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6205_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6206_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6206_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6207_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6207_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6208_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6208_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6209_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6209_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6210_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6210_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6211_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6211_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6212_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6212_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6213_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6213_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6214_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6214_EN"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6215_FR"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6215_EN"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/DD_CNA_BRANCHES_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DD_CNA_BRANCHES_CSV_FR",
+      "dct:title": "Activité des branches de l'économie",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/DD_CNA_BRANCHES_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 3909321
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6101_6103_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6101_6103_FR",
+      "dct:title": "6.101 - Production par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6101_6103_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 150770
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6101_6103_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6101_6103_EN",
+      "dct:title": "6.101 – Output by industry",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6101_6103_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 150818
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6104_6106_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6104_6106_FR",
+      "dct:title": "6.104 – Consommation intermédiaire par branche ",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6104_6106_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 148857
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6104_6106_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6104_6106_EN",
+      "dct:title": "6.104 – Intermediate consumption by industry",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6104_6106_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 148898
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6201_6203_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6201_6203_FR",
+      "dct:title": "6.201 - Valeur ajoutée brute par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6201_6203_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 149418
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6201_6203_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6201_6203_EN",
+      "dct:title": "6.201 – Gross value added by industry",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6201_6203_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 149471
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6204_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6204_FR",
+      "dct:title": "6.204 – Rémunération des salariés par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6204_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 50558
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6204_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6204_EN",
+      "dct:title": " 6.204 – Compensation of employees by industry at current prices",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6204_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 50620
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6205_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6205_FR",
+      "dct:title": "6.205 – Salaires et traitements bruts des salariés par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6205_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 49502
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6205_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6205_EN",
+      "dct:title": "6.205 – Wages and salaries by industry at current prices",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6205_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 49551
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6206_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6206_FR",
+      "dct:title": "6.206 – Excédent brut d'exploitation par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6206_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 46406
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6206_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6206_EN",
+      "dct:title": "6.206 – Gross operating surplus by industry at current prices",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6206_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9521
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6207_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6207_FR",
+      "dct:title": "6.207 – Excédent brut d'exploitation et revenu mixte brut par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6207_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9462
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6207_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6207_EN",
+      "dct:title": "6.207 – Gross operating surplus and gross mixed income by industry at current prices",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6207_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9521
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6208_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6208_FR",
+      "dct:title": "6.208 – Emploi intérieur total par branche en nombre de personnes",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6208_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 51642
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6208_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6208_EN",
+      "dct:title": "6.208 – Total domestic employment by industry ",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6208_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9486
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6209_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6209_FR",
+      "dct:title": "6.209 – Emploi intérieur total par branche en nombre d'équivalents temps plein",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6209_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9458
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6209_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6209_EN",
+      "dct:title": "6.209 – Total domestic employment by industry in full-time equivalents",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6209_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9507
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6210_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6210_FR",
+      "dct:title": "6.210 – Emploi intérieur salarié par branche en nombre de personnes",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6210_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9471
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6210_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6210_EN",
+      "dct:title": "6.210 – Domestic employment by industry",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6210_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9489
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6211_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6211_FR",
+      "dct:title": "6.211 – Emploi intérieur salarié par branche en nombre d'équivalents temps plein",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6211_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9486
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6211_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6211_EN",
+      "dct:title": "6.211 – Domestic employment by industry in full-time equivalents",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6211_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9501
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6212_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6212_FR",
+      "dct:title": "6.212 – Durée annuelle du travail des salariés déclarés par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6212_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9481
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6212_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6212_EN",
+      "dct:title": "6.212 – Annual average work time of the employees by industry",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6212_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9505
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6213_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6213_FR",
+      "dct:title": "6.213 – Volume total d'heures travaillées par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6213_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9440
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6213_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6213_EN",
+      "dct:title": "6.213 – Total hours worked by industry",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6213_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9474
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6214_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6214_FR",
+      "dct:title": "6.214 – Volume total d'heures travaillées des salariés déclarés par branche",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6214_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9482
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6214_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6214_EN",
+      "dct:title": "6.214 – Hours worked of the employees by industry",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6214_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 9507
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6215_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6215_FR",
+      "dct:title": "6.215 Productivité horaire du travail par branche en évolution",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6215_FR",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 8272
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6215_EN",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "T_6215_EN",
+      "dct:title": "6.215 – Productivity per hour by industry",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DD_CNA_BRANCHES/T_6215_EN",
+      "dcat:mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "dcat:bytesSize": 8314
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_ABC_NAT_VIDE",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_ABC_NAT_VIDE",
+      "dct:title": "",
+      "dct:description": "",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_ABC_NAT_VIDE",
+      "dcat:keyword": [],
+      "dct:issued": "2024-02-12T14:42:14",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": [
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ABC_NAT_VIDE/Tests ABC sans geo sans statut - chargement 1_Fichier producteur"
+        },
+        {
+          "@id": "https://data.insee.fr/datasets/file/DS_ABC_NAT_VIDE/DS_ABC_NAT_VIDE_CSV_FR"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ABC_NAT_VIDE/Tests ABC sans geo sans statut - chargement 1_Fichier producteur",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "Tests ABC sans geo sans statut - chargement 1_Fichier producteur",
+      "dct:title": "Tests ABC sans geo sans statut - chargement 1_Fichier producteur",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ABC_NAT_VIDE/Tests ABC sans geo sans statut - chargement 1_Fichier producteur",
+      "dcat:mediaType": "zip",
+      "dcat:bytesSize": 701
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/file/DS_ABC_NAT_VIDE/DS_ABC_NAT_VIDE_CSV_FR",
+      "@type": "dcat:Distribution",
+      "dct:identifier": "DS_ABC_NAT_VIDE_CSV_FR",
+      "dct:description": "",
+      "dcat:downloadUrl": "https://data.insee.fr/datasets/file/DS_ABC_NAT_VIDE/DS_ABC_NAT_VIDE_CSV_FR",
+      "dcat:mediaType": "text/csv",
+      "dcat:bytesSize": 558
+    },
+    {
+      "@id": "https://data.insee.fr/datasets/DS_DERA_PRIVE",
+      "@type": "dcat:Dataset",
+      "dct:identifier": "DS_DERA_PRIVE",
+      "dct:title": "Salaires détaillés par profession dans le secteur privé en 2021",
+      "dct:description": "Ces données se retrouvent dans la partie séries longues de l'outil dataviz sur les salaires, voir \nhttps://www.insee.fr/fr/outil-interactif/5369554/series-longues-dans-le-secteur-prive\n\nLes salaires et les effectifs par profession sont ceux des salariés du secteur privé. Certaines professions peuvent être exercées à la fois en tant que salariés du privé ou que salariés du public (par exemple médecin) ou encore en tant que non-salariés (par exemple avocat) ; pour ces professions, seuls les salariés exerçant dans le privé ont été pris en compte ci-dessous. Les professions majoritairement exercées dans le public (comme professeurs des écoles) ont par ailleurs été exclues du champ.",
+      "dcat:landingPage": "https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_DERA_PRIVE",
+      "dcat:keyword": [],
+      "dct:issued": "2024-01-04T12:30:49",
+      "dct:license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+      "dcat:distribution": []
+    }
+  ]
+}
